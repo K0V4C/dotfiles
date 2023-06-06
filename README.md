@@ -4,10 +4,6 @@
 
 This repo is only for storing my custom config files.
 
-Following programs are customized
-
-* neovim
-
 ## Installation
 
 Git clone this repository in your .config folder, be sure that you backup yours first 
