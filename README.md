@@ -33,7 +33,7 @@ I will try to credit each document and cofig file to its author currently follow
 
 chris@machine  
 NvChad  
-ThePrimagen  
+ThePrimeagen  
 
 ## Contributions
 
