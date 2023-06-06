@@ -4,7 +4,7 @@
 
 This repo is only for storing my custom config files.
 
-![Setup](setup.jpg)
+![Setup](setup.jpeg)
 
 ## Installation
 
