@@ -17,7 +17,9 @@ Assuming in home directory:
 ```
 mkdir backup
 cp -r .config/ backup/
+```
 
+```
 git clone git@github.com:K0V4C/dotfiles.git
 ```
 
@@ -26,6 +28,6 @@ git clone git@github.com:K0V4C/dotfiles.git
 
 I will try to credit each document and cofig file to its author currently following are main insparations:
 
-chris@machine
-NvChad
-ThePrimagen
+chris@machine \n
+NvChad \n
+ThePrimagen \n
