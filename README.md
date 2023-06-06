@@ -24,6 +24,8 @@ Or if you prefer https:
 ```bash
 git clone https://github.com/K0V4C/dotfiles.git
 ```
+This will only copy the file in home directory, it's on you to copy and paste what you want
+in .config/ directory. I prefer it this way, it makes it less messy, at least for me.
 
 ## Credits
 
