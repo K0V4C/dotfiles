@@ -4,6 +4,8 @@
 
 This repo is only for storing my custom config files.
 
+![Setup](setup.jpg)
+
 ## Installation
 
 Git clone this repository in your .config folder, be sure that you backup yours first 
