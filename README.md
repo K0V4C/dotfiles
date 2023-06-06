@@ -14,12 +14,12 @@ Git clone this repository in your .config folder, be sure that you backup yours 
 
 Assuming in home directory:
 
-```
+```bash
 mkdir backup
 cp -r .config/ backup/
 ```
 
-```
+```bash
 git clone git@github.com:K0V4C/dotfiles.git
 ```
 
@@ -31,3 +31,7 @@ I will try to credit each document and cofig file to its author currently follow
 chris@machine  
 NvChad  
 ThePrimagen  
+
+## Contributions
+
+If you find some errors or optmizations I am glad to read them. Thanks in advance
