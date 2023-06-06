@@ -1,0 +1,50 @@
+# Personal configs
+env:
+  TERM: xterm-256color
+
+# Font configuration
+font:
+  normal:
+    # Default:
+    #   - (macOS) Menlo
+    #   - (Linux/BSD) monospace
+    #   - (Windows) Consolas
+    family: JetBrainsMono Nerd Font
+    style: Regular
+
+  bold:
+    family: JetBrainsMono Nerd Font
+    style: Bold
+
+  italic:
+    family: JetBrainsMono Nerd Font
+    style: Italic
+
+  bold_italic:
+    family: JetBrainsMono Nerd Font
+    style: Bold Italic
+
+  #Point size
+  size: 8.0
+  
+window:
+  opacity: 1.00
+
+scrolling:
+  history: 10000
+  multiplier: 3
+
+key_bindings:
+  - {key: Return, mods: Super|Shift, action: SpawnNewInstance }
+
+
+
+import:
+# uncomment the flavour you want below:
+#  - ~/.config/alacritty/themes/catppuccin-mocha.yml
+# - ~/.config/alacritty/theme/catppuccin-macchiato.yml
+# - ~/.config/alacritty/theme/catppuccin-frappe.yml
+#  - ~/.config/alacritty/theme/catppuccin-latte.yml
+#  - ~/.config/alacritty/themes/custom-gotham-theme.yml
+#  - ~/config/alacritty/themes/monokai_pro.yml
+  - ~/config/alacritty/themes/monokai.yml

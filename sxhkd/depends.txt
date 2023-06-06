@@ -1,0 +1,3 @@
+sxhkd
+brightnessctl
+pamixer
