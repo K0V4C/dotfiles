@@ -8,7 +8,7 @@ This repo is only for storing my custom config files.
 
 ## Installation
 
-Git clone this repository in your .config folder, be sure that you backup yours first 
+Git clone this repository in your .config folder, be sure that you backup yours first. 
 
 Assuming in home directory:
 
@@ -39,4 +39,4 @@ ThePrimeagen
 
 ## Contributions
 
-If you find some errors or optmizations I am glad to read them. Thanks in advance
+If you find some errors or optmizations I am glad to read them. Thanks in advance ^_^.
