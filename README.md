@@ -29,7 +29,7 @@ in .config/ directory. I prefer it this way, it makes it less messy, at least fo
 
 ## Credits
 
-I will try to credit each document and cofig file to its author currently following are main insparations:
+I will try to credit each document and cofig file to its author currently following are main inspirations:
 
 chris@machine  
 NvChad  
