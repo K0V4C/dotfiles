@@ -19,6 +19,11 @@ cp -r .config/ backup/
 git clone git@github.com:K0V4C/dotfiles.git
 ```
 
+Or if you prefer https:
+
+```bash
+git clone https://github.com/K0V4C/dotfiles.git
+```
 
 ## Credits
 
