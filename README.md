@@ -1,6 +1,6 @@
 # dotfiles
 
-## Collection of .config files include in my Linux setup
+## Collection of .config files included in my Linux setup
 
 This repo is only for storing my custom config files.
 
