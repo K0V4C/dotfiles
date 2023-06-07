@@ -25,7 +25,7 @@ font:
     style: Bold Italic
 
   #Point size
-  size: 10.0
+  size: 8.0
   
 window:
   opacity: 0.90
@@ -41,10 +41,10 @@ key_bindings:
 
 import:
 # uncomment the flavour you want below:
-#  - ~/.config/alacritty/themes/catppuccin-mocha.yml
+# - ~/.config/alacritty/themes/catppuccin-mocha.yml
 # - ~/.config/alacritty/theme/catppuccin-macchiato.yml
 # - ~/.config/alacritty/theme/catppuccin-frappe.yml
 #  - ~/.config/alacritty/theme/catppuccin-latte.yml
 #  - ~/.config/alacritty/themes/custom-gotham-theme.yml
-#  - ~/config/alacritty/themes/monokai_pro.yml
-  - ~/config/alacritty/themes/monokai.yml
+# - ~/config/alacritty/themes/monokai_pro.yml
+ - ~/config/alacritty/themes/monokai.yml

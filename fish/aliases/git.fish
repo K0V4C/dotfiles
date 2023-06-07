@@ -3,4 +3,4 @@ alias ga "git add ."
 alias gc "git commit -m"
 alias gp "git push"
 alias gd "git diff"
-
+alias gac "git commit -am"

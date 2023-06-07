@@ -62,6 +62,8 @@ return packer.startup(function(use)
         end
     }
 
+    -- use {'akinsho/bufferline.nvim', tag = "*", requires = 'nvim-tree/nvim-web-devicons'}
+
     use 'nvim-tree/nvim-web-devicons'
 
     use {

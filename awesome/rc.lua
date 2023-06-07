@@ -529,5 +529,5 @@ awful.spawn.with_shell("flameshot &")
 awful.spawn.with_shell("nm-applet &")
 awful.spawn.with_shell("sxhkd &")
 
-awful.spawn.with_shell("xinput --set-prop 'pointer:''SynPS/2 Synaptics TouchPad' 'libinput Accel Profile Enabled' 0, 1")
-awful.spawn.with_shell("xinput --set-prop 'pointer:''SynPS/2 Synaptics TouchPad' 'libinput Accel Speed' +0.5")
+-- awful.spawn.with_shell("xinput --set-prop 'pointer:''SynPS/2 Synaptics TouchPad' 'libinput Accel Profile Enabled' 0, 1")
+-- awful.spawn.with_shell("xinput --set-prop 'pointer:''SynPS/2 Synaptics TouchPad' 'libinput Accel Speed' +0.5")

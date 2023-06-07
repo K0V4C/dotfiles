@@ -25,7 +25,6 @@ keymap("n", "<C-J>", "<C-W>j", opts)
 keymap("n", "<C-K>", "<C-W>k", opts)
 keymap("n", "<C-L>", "<C-W>l", opts)
 
-
 -- Spliting windows --
 keymap("n", "<C-v>", "<C-W>v", opts)
 keymap("n", "<C-s>", "<C-W>s", opts)

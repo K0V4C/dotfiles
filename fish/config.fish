@@ -26,6 +26,7 @@ end
 set fish_greeting
 
 xset r rate 200 30
-
+xinput --set-prop 'pointer:''SynPS/2 Synaptics TouchPad' 'libinput Accel Profile Enabled' 0, 1
+xinput --set-prop 'pointer:''SynPS/2 Synaptics TouchPad' 'libinput Accel Speed' +0.5
 
 
