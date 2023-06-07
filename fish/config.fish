@@ -25,5 +25,7 @@ end
 # Remove fish greeting 
 set fish_greeting
 
+xset r rate 200 30
+
 
 

@@ -19,6 +19,13 @@ keymap("", "<Space>", "<Nop>", opts)
 vim.g.mapleader = " "
 vim.keymap.set("n", "<leader>pv", vim.cmd.NvimTreeToggle)
 
+-- Switching windows --
+keymap("n", "<C-H>", "<C-W>h", opts)
+keymap("n", "<C-J>", "<C-W>j", opts)
+keymap("n", "<C-K>", "<C-W>k", opts)
+keymap("n", "<C-L>", "<C-W>l", opts)
+
+
 -- Visual --
 -- Stay in indent mode
 keymap("v", "<", "<gv", opts)

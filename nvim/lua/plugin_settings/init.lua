@@ -1,4 +1,4 @@
-require("plugin_settings.lualine") 
+require("plugin_settings.lualine")
 require("plugin_settings.completions")
 require("plugin_settings.nvim-dev-webicons")
 require("plugin_settings.telescope")

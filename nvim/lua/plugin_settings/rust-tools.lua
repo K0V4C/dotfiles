@@ -1,12 +1,19 @@
-local rt = require("rust-tools")
+local lsp = require('lsp-zero').preset({})
 
-rt.setup({
+lsp.on_attach(function(client, bufnr)
+  lsp.default_keymaps({buffer = bufnr})
+end)
+
+lsp.skip_server_setup({'rust_analyzer'})
+
+lsp.setup()
+
+local rust_tools = require('rust-tools')
+
+rust_tools.setup({
   server = {
-    on_attach = function(_, bufnr)
-      -- Hover actions
-      vim.keymap.set("n", "<C-space>", rt.hover_actions.hover_actions, { buffer = bufnr })
-      -- Code action groups
-      vim.keymap.set("n", "<Leader>a", rt.code_action_group.code_action_group, { buffer = bufnr })
-    end,
-  },
+    on_attach = function()
+      vim.keymap.set('n', '<leader>ca', rust_tools.hover_actions.hover_actions, {buffer = bufnr})
+    end
+  }
 })
