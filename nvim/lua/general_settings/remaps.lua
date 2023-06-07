@@ -11,10 +11,10 @@ local term_opts = { silent = true }
 --   command_mode = "c",
 
 
--- Shorten function name
+-- Shorten function name --
 local keymap = vim.api.nvim_set_keymap
 
---Remap space as leader key
+-- Remap space as leader key --
 keymap("", "<Space>", "<Nop>", opts)
 vim.g.mapleader = " "
 vim.keymap.set("n", "<leader>pv", vim.cmd.NvimTreeToggle)
@@ -26,12 +26,16 @@ keymap("n", "<C-K>", "<C-W>k", opts)
 keymap("n", "<C-L>", "<C-W>l", opts)
 
 
+-- Spliting windows --
+keymap("n", "<C-v>", "<C-W>v", opts)
+keymap("n", "<C-s>", "<C-W>s", opts)
+
 -- Visual --
--- Stay in indent mode
+-- Stay in indent mode --
 keymap("v", "<", "<gv", opts)
 keymap("v", ">", ">gv", opts)
 
--- Move text up and down
+-- Move text up and down --
 keymap("v", "<A-j>", ":m .+1<CR>==", opts)
 keymap("v", "<A-k>", ":m .-2<CR>==", opts)
 keymap("v", "p", '"_dP', opts)
