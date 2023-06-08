@@ -48,6 +48,18 @@ return packer.startup(function(use)
         requires = { {'nvim-lua/plenary.nvim'} }
     }
 
+
+    use {
+        'glepnir/dashboard-nvim',
+        event = 'VimEnter',
+        requires = {'nvim-tree/nvim-web-devicons'},
+        config = function()
+            require('dashboard').setup {
+                -- config
+            }
+        end,
+    }
+
     use {
         'nvim-treesitter/nvim-treesitter',
         run = ':TSUpdate'
