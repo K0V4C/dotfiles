@@ -1,4 +1,4 @@
-alias ll "exa -lah --color=auto"
+alias ll "eza -lah --icons --color=always"
 alias btpw "cat /sys/class/power_supply/BAT0/capacity"
 alias vim "nvim"
 alias sdn "sudo shutdown now"
