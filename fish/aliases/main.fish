@@ -7,6 +7,7 @@ alias bright "sudo nvim /sys/class/backlight/intel_backlight/brightness"
 alias cat "bat"
 alias snvim "sudo -E nvim"
 alias hx "helix"
+alias powersave "sudo cpupower frequency-set -g powersave"
 
 alias ls 'sl -e -a -d'
 alias grep 'grep --color=auto'
