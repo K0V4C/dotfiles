@@ -23,4 +23,5 @@ require("configuration.mouse_and_keyboard")
 -- Rules
 require("configuration.rules")
 
-
+-- Startup
+require("configuration.startup")
