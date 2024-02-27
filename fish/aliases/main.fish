@@ -13,4 +13,3 @@ alias disk_space "ncdu"
 alias ls 'sl -e -a -d'
 alias grep 'grep --color=auto'
 
-thefuck --alias | source
