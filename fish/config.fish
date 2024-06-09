@@ -24,11 +24,12 @@ end
 
 # Remove fish greeting 
 # For this to work we need starship installed
-set fish_greeting
+set -g fish_greeting ""
 starship init fish | source
 
 xset r rate 200 30
 xinput --set-prop 'pointer:''SynPS/2 Synaptics TouchPad' 'libinput Accel Profile Enabled' 0, 1
 xinput --set-prop 'pointer:''SynPS/2 Synaptics TouchPad' 'libinput Accel Speed' +0.5
+
 
 

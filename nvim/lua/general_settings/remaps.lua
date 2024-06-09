@@ -26,8 +26,8 @@ keymap("n", "<C-K>", "<C-W>k", opts)
 keymap("n", "<C-L>", "<C-W>l", opts)
 
 -- Spliting windows --
-keymap("n", "<C-v>", "<C-W>v", opts)
-keymap("n", "<C-s>", "<C-W>s", opts)
+-- keymap("n", "<C-v>", "<C-W>v", opts)
+-- keymap("n", "<C-s>", "<C-W>s", opts)
 
 -- Visual --
 -- Stay in indent mode --
@@ -39,8 +39,8 @@ keymap("v", "<A-j>", ":m .+1<CR>==", opts)
 keymap("v", "<A-k>", ":m .-2<CR>==", opts)
 keymap("v", "p", '"_dP', opts)
 
-
-
+-- For Lua configuration (recommended)
+keymap("n", "<S-5>", "!touch %", opts)
 
 -- 
 -- keymap("i", "<C-o>", "<>", opts)

@@ -8,3 +8,4 @@ beautiful.init(gears.filesystem.get_themes_dir() .. "default/theme.lua") -- Awes
 
 -- Personal additions
 beautiful.useless_gap = 2
+beautiful.border_width = 3

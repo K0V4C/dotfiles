@@ -1,4 +1,3 @@
-
 local lsp = require('lsp-zero')
 
 lsp.preset('recommended')
@@ -12,9 +11,8 @@ local cmp_mappings = lsp.defaults.cmp_mappings({
     ['<C-Space>'] = cmp.mapping.complete(),
 })
 
-local lspconfig = require('lspconfig')
-
-lspconfig.lua_ls.setup(lsp.nvim_lua_ls())
+--local lspconfig = require('lspconfig')
+--lspconfig.lua_ls.setup(lsp.nvim_lua_ls())
 
 
 
